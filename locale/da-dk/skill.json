@@ -1,13 +1,13 @@
 {
-  "skill_id": "ovos-skill-voices-of-tomorrow.andlo",
-  "source": "https://github.com/andlo/ovos-skill-voices-of-tomorrow",
+  "skill_id": "ovos-skill-voices-of-tomorrow.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-voices-of-tomorrow",
   "package_name": "ovos-skill-voices-of-tomorrow",
   "pip_spec": "ovos-skill-voices-of-tomorrow",
-  "license": "GPL-3.0-or-later",
-  "author": "andlo",
+  "license": "Apache-2.0",
+  "author": "emkay-voice",
   "name": "Voices of Tomorrow",
   "description": "Afspiller forudindspillede oplæsninger fra 365tomorrows.com via OCP. Adskilt fra ovos-skill-365tomorrows-stories, som i stedet læser teksten højt via TTS.",
   "examples": ["afspil voices of tomorrow", "afspil 365tomorrows podcasten"],
   "tags": ["entertainment", "scifi", "podcast", "ocp"],
-  "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-voices-of-tomorrow/main/ui/icon.png"
+  "icon": "https://raw.githubusercontent.com/emkay-voice/ovos-skill-voices-of-tomorrow/main/ui/icon.png"
 }

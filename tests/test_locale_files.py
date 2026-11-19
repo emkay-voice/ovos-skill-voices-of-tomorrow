@@ -20,7 +20,7 @@ def test_all_ten_languages_present():
 @pytest.mark.parametrize("lang", EXPECTED_LANGS)
 def test_skill_json_is_valid_for_every_language(lang):
     data = json.loads((LOCALE_DIR / lang / "skill.json").read_text())
-    assert data["skill_id"] == "ovos-skill-voices-of-tomorrow.andlo"
+    assert data["skill_id"] == "ovos-skill-voices-of-tomorrow.emkay-voice"
     assert data["name"]
     assert data["description"]
 

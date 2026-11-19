@@ -3,7 +3,10 @@
 An **OCP** (ovos-common-play) skill - plays pre-recorded audio readings
 of [365tomorrows.com](https://365tomorrows.com) flash fiction stories.
 
-[![Tests](https://github.com/andlo/ovos-skill-voices-of-tomorrow/actions/workflows/test.yml/badge.svg)](https://github.com/andlo/ovos-skill-voices-of-tomorrow/actions/workflows/test.yml)
+It is part of [Emkay](https://github.com/emkay-voice/emkay), OpenVoiceOS in
+the browser, and works on any [OpenVoiceOS](https://openvoiceos.org).
+
+[![Build](https://github.com/emkay-voice/ovos-skill-voices-of-tomorrow/actions/workflows/publish.yml/badge.svg)](https://github.com/emkay-voice/ovos-skill-voices-of-tomorrow/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/ovos-skill-voices-of-tomorrow.svg)](https://pypi.org/project/ovos-skill-voices-of-tomorrow/)
 
 ## This is deliberately NOT a common-reading provider

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-voices-of-tomorrow"
+version = "0.2.0a1"
+description = "Plays pre-recorded audio readings of 365tomorrows.com flash fiction stories, via OCP. Separate from ovos-skill-365tomorrows-stories, which reads the text aloud via TTS instead."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Andreas Lorensen"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "ocp", "common-play", "podcast", "audio", "365tomorrows", "scifi", "emkay"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Topic :: Home Automation",
+]
+dependencies = [
+    "requests",
+    "ovos-workshop",
+    "ovos-plugin-common-play",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/ovos-skill-voices-of-tomorrow"
+Issues = "https://github.com/emkay-voice/ovos-skill-voices-of-tomorrow/issues"
+Emkay = "https://github.com/emkay-voice/emkay"
+
+[project.entry-points."opm.skill"]
+"ovos-skill-voices-of-tomorrow.emkay-voice" = "ovos_skill_voices_of_tomorrow:VoicesOfTomorrowSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_voices_of_tomorrow"]
+
+[tool.setuptools.package-dir]
+ovos_skill_voices_of_tomorrow = ""
+
+[tool.setuptools.package-data]
+ovos_skill_voices_of_tomorrow = ["locale/**/*", "ui/**/*"]

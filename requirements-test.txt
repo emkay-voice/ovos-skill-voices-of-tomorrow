@@ -1,3 +1,0 @@
-pytest
-ovos-workshop
-ovos-plugin-common-play
