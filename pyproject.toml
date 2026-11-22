@@ -8,7 +8,7 @@ version = "0.2.0a1"
 description = "Plays pre-recorded audio readings of 365tomorrows.com flash fiction stories, via OCP. Separate from ovos-skill-365tomorrows-stories, which reads the text aloud via TTS instead."
 readme = "README.md"
 license = {text = "Apache-2.0"}
-authors = [{name = "Andreas Lorensen"}]
+authors = [{name = "emkay-voice"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "skill", "ocp", "common-play", "podcast", "audio", "365tomorrows", "scifi", "emkay"]
 classifiers = [

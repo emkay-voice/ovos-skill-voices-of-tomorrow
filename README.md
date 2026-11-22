@@ -11,7 +11,7 @@ the browser, and works on any [OpenVoiceOS](https://openvoiceos.org).
 
 ## This is deliberately NOT a common-reading provider
 
-[ovos-skill-365tomorrows-stories](https://github.com/andlo/ovos-skill-365tomorrows-stories)
+[ovos-skill-365tomorrows-stories](https://github.com/emkay-voice/ovos-skill-365tomorrows-stories)
 reads the *text* of 365tomorrows stories aloud via TTS, as a provider
 for
 [ovos-common-reading-pipeline-plugin](https://github.com/andlo/ovos-common-reading-pipeline-plugin).
