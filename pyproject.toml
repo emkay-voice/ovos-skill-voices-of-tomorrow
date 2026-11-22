@@ -9,6 +9,7 @@ description = "Plays pre-recorded audio readings of 365tomorrows.com flash ficti
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "skill", "ocp", "common-play", "podcast", "audio", "365tomorrows", "scifi", "emkay"]
 classifiers = [
